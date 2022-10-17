@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import './App.css'
+// import { MuiTypography } from './components/MuiTypography';
+import { MuiButton } from './components/MuiButton';
 
 function App(): JSX.Element {
   return (
-    <div>
-      Hello Truth Prakash Sahoo !!!
+    <div className='App'>
+      <MuiButton />
     </div>
   )
 }
