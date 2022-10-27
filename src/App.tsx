@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css'
 // import { MuiTypography } from './components/MuiTypography';
 import { MuiButton } from './components/MuiButton';
 
-function App(): JSX.Element {
+function App(){
+  const [formats, setFormats] = useState<Array<string>>([]);
   return (
     <div className='App'>
       <MuiButton />
